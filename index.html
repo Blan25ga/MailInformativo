@@ -1,0 +1,1403 @@
+<!DOCTYPE>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" src="style.css">
+    <title>Shoes Newsletter</title>
+
+    <style type="text/css">
+        body,
+        #bodyTable,
+        #bodyCell {
+            height: 100% !important;
+            margin: 0;
+            padding: 0;
+            width: 100% !important;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        img,
+        a img {
+            border: 0;
+            outline: none;
+            text-decoration: none;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 0;
+            padding: 0;
+        }
+
+        p {
+            margin: 1em 0;
+            padding: 0;
+        }
+
+        a {
+            word-wrap: break-word;
+        }
+
+        .ReadMsgBody {
+            width: 100%;
+        }
+
+        .ExternalClass {
+            width: 100%;
+        }
+
+        .ExternalClass,
+        .ExternalClass p,
+        .ExternalClass span,
+        .ExternalClass font,
+        .ExternalClass td,
+        .ExternalClass div {
+            line-height: 100%;
+        }
+
+        table,
+        td {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+
+        #outlook a {
+            padding: 0;
+        }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+
+        body,
+        table,
+        td,
+        p,
+        a,
+        li,
+        blockquote {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        #bodyCell {
+            padding: 20px;
+        }
+
+        .themezyImage {
+            vertical-align: bottom;
+        }
+
+        .themezyTextContent img {
+            height: auto !important;
+        }
+
+        body,
+        #bodyTable {
+            background-color: #000000;
+        }
+
+        #bodyCell {
+            border-top: 0;
+        }
+
+        #templateContainer {
+            border: 0;
+        }
+
+        h1 {
+            color: #d63f36 !important;
+            display: block;
+            font-family: Arial, Helvetica;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: bold;
+            line-height: 125%;
+            letter-spacing: -2px;
+            margin: 0;
+            text-align: left;
+        }
+
+        h2 {
+            color: #404040 !important;
+            display: block;
+            font-family: Arial, Helvetica;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: bold;
+            line-height: 125%;
+            letter-spacing: -.75px;
+            margin: 0;
+            text-align: left;
+        }
+
+        h3 {
+            color: #ffffff !important;
+            display: block;
+            font-family: Arial, Helvetica;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: bold;
+            line-height: 125%;
+            letter-spacing: -.5px;
+            margin: 0;
+            text-align: left;
+        }
+
+        h4 {
+            color: #808080 !important;
+            display: block;
+            font-family: Arial, Helvetica;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: bold;
+            line-height: 125%;
+            letter-spacing: normal;
+            margin: 0;
+            text-align: left;
+        }
+
+        #templatePreheader {
+            background-color: #000000;
+            border-top: 0;
+            border-bottom: 0;
+        }
+
+        .preheaderContainer .themezyTextContent,
+        .preheaderContainer .themezyTextContent p {
+            color: #565459;
+            font-family: Arial, Helvetica;
+            font-size: 11px;
+            line-height: 125%;
+            text-align: left;
+        }
+
+        .preheaderContainer .themezyTextContent a {
+            color: #606060;
+            font-weight: normal;
+            text-decoration: underline;
+        }
+
+        #templateHeader {
+            background-color: #000000;
+            border-top: 0;
+            border-bottom: 0;
+        }
+
+        .headerContainer .themezyTextContent,
+        .headerContainer .themezyTextContent p {
+            color: #7e7c81;
+            font-family: Arial, Helvetica;
+            font-size: 15px;
+            line-height: 150%;
+            text-align: left;
+        }
+
+        .headerContainer .themezyTextContent a {
+            color: #6DC6DD;
+            font-weight: normal;
+            text-decoration: underline;
+        }
+
+        #templateBody {
+            background-color: #000000;
+            border-top: 0;
+            border-bottom: 0;
+        }
+
+        .bodyContainer .themezyTextContent,
+        .bodyContainer .themezyTextContent p {
+            color: #606060;
+            font-family: Arial, Helvetica;
+            font-size: 15px;
+            line-height: 150%;
+            text-align: left;
+        }
+
+        .bodyContainer .themezyTextContent a {
+            color: #6DC6DD;
+            font-weight: normal;
+            text-decoration: underline;
+        }
+
+        #templateColumns {
+            background-color: #000000;
+            border-top: 0;
+            border-bottom: 0;
+        }
+
+        .leftColumnContainer .themezyTextContent,
+        .leftColumnContainer .themezyTextContent p {
+            color: #606060;
+            font-family: Arial, Helvetica;
+            font-size: 15px;
+            line-height: 150%;
+            text-align: left;
+        }
+
+        .leftColumnContainer .themezyTextContent a {
+            color: #6DC6DD;
+            font-weight: normal;
+            text-decoration: underline;
+        }
+
+        .rightColumnContainer .themezyTextContent,
+        .rightColumnContainer .themezyTextContent p {
+            color: #606060;
+            font-family: Arial, Helvetica;
+            font-size: 15px;
+            line-height: 150%;
+            text-align: left;
+        }
+
+        .rightColumnContainer .themezyTextContent a {
+            color: #6DC6DD;
+            font-weight: normal;
+            text-decoration: underline;
+        }
+
+        #templateFooter {
+            background-color: #0b0b0b;
+            border-top: 0;
+            border-bottom: 0;
+        }
+
+        .footerContainer .themezyTextContent,
+        .footerContainer .themezyTextContent p {
+            color: #565459;
+            font-family: Arial, Helvetica;
+            font-size: 11px;
+            line-height: 200%;
+            text-align: center;
+        }
+
+        .footerContainer .themezyTextContent a {
+            color: #d63f36;
+            font-weight: normal;
+            text-decoration: underline;
+        }
+
+        @media only screen and (max-width: 480px) {
+
+            body,
+            table,
+            td,
+            p,
+            a,
+            li,
+            blockquote {
+                -webkit-text-size-adjust: none !important;
+            }
+
+            body {
+                width: 100% !important;
+                min-width: 100% !important;
+            }
+
+            td[id=bodyCell] {
+                padding: 10px !important;
+            }
+
+            table[class=themezyTextContentContainer] {
+                width: 100% !important;
+            }
+
+            table[class=themezyBoxedTextContentContainer] {
+                width: 100% !important;
+            }
+
+            table[class=mcpreview-image-uploader] {
+                width: 100% !important;
+                display: none !important;
+            }
+
+            img[class=themezyImage] {
+                width: 100% !important;
+            }
+
+            table[class=themezyImageGroupContentContainer] {
+                width: 100% !important;
+            }
+
+            td[class=themezyImageGroupContent] {
+                padding: 9px !important;
+            }
+
+            td[class=themezyImageGroupBlockInner] {
+                padding-bottom: 0 !important;
+                padding-top: 0 !important;
+            }
+
+            tbody[class=themezyImageGroupBlockOuter] {
+                padding-bottom: 9px !important;
+                padding-top: 9px !important;
+            }
+
+            table[class=themezyCaptionTopContent],
+            table[class=themezyCaptionBottomContent] {
+                width: 100% !important;
+            }
+
+            table[class=themezyCaptionLeftTextContentContainer],
+            table[class=themezyCaptionRightTextContentContainer],
+            table[class=themezyCaptionLeftImageContentContainer],
+            table[class=themezyCaptionRightImageContentContainer],
+            table[class=themezyImageCardLeftTextContentContainer],
+            table[class=themezyImageCardRightTextContentContainer] {
+                width: 100% !important;
+            }
+
+            td[class=themezyImageCardLeftImageContent],
+            td[class=themezyImageCardRightImageContent] {
+                padding-right: 18px !important;
+                padding-left: 18px !important;
+                padding-bottom: 0 !important;
+            }
+
+            td[class=themezyImageCardBottomImageContent] {
+                padding-bottom: 9px !important;
+            }
+
+            td[class=themezyImageCardTopImageContent] {
+                padding-top: 18px !important;
+            }
+
+            table[class=themezyCaptionLeftContentOuter] td[class=themezyTextContent],
+            table[class=themezyCaptionRightContentOuter] td[class=themezyTextContent] {
+                padding-top: 9px !important;
+            }
+
+            td[class=themezyCaptionBlockInner] table[class=themezyCaptionTopContent]:last-child td[class=themezyTextContent] {
+                padding-top: 18px !important;
+            }
+
+            td[class=themezyBoxedTextContentColumn] {
+                padding-left: 18px !important;
+                padding-right: 18px !important;
+            }
+
+            td[class=columnsContainer] {
+                display: block !important;
+                max-width: 600px !important;
+                width: 100% !important;
+            }
+
+            td[class=themezyTextContent] {
+                padding-right: 18px !important;
+                padding-left: 18px !important;
+            }
+
+            table[id=templateContainer],
+            table[id=templatePreheader],
+            table[id=templateHeader],
+            table[id=templateColumns],
+            table[class=templateColumn],
+            table[id=templateBody],
+            table[id=templateFooter] {
+                max-width: 600px !important;
+                width: 100% !important;
+            }
+
+            h1 {
+                font-size: 24px !important;
+                line-height: 125% !important;
+            }
+
+            h2 {
+                font-size: 20px !important;
+                line-height: 125% !important;
+            }
+
+            h3 {
+                font-size: 18px !important;
+                line-height: 125% !important;
+            }
+
+            h4 {
+                font-size: 16px !important;
+                line-height: 125% !important;
+            }
+
+            table[class=themezyBoxedTextContentContainer] td[class=themezyTextContent],
+            td[class=themezyBoxedTextContentContainer] td[class=themezyTextContent] p {
+                font-size: 18px !important;
+                line-height: 125% !important;
+            }
+
+            table[id=templatePreheader] {
+                display: block !important;
+            }
+
+            td[class=preheaderContainer] td[class=themezyTextContent],
+            td[class=preheaderContainer] td[class=themezyTextContent] p {
+                font-size: 14px !important;
+                line-height: 115% !important;
+                text-align: center !important;
+            }
+
+            td[class=headerContainer] td[class=themezyTextContent],
+            td[class=headerContainer] td[class=themezyTextContent] p {
+                font-size: 18px !important;
+                line-height: 125% !important;
+            }
+
+            td[class=bodyContainer] td[class=themezyTextContent],
+            td[class=bodyContainer] td[class=themezyTextContent] p {
+                font-size: 18px !important;
+                line-height: 125% !important;
+            }
+
+            td[class=leftColumnContainer] td[class=themezyTextContent],
+            td[class=leftColumnContainer] td[class=themezyTextContent] p {
+                font-size: 18px !important;
+                line-height: 125% !important;
+            }
+
+            td[class=rightColumnContainer] td[class=themezyTextContent],
+            td[class=rightColumnContainer] td[class=themezyTextContent] p {
+                font-size: 18px !important;
+                line-height: 125% !important;
+            }
+
+            td[class=footerContainer] td[class=themezyTextContent],
+            td[class=footerContainer] td[class=themezyTextContent] p {
+                font-size: 14px !important;
+                line-height: 115% !important;
+            }
+
+            td[class=footerContainer] a[class=utilityLink] {
+                display: block !important;
+            }
+        }
+    </style>
+</head>
+
+<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+    <center>
+        <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+            <tr>
+                <td align="center" valign="top" id="bodyCell">
+                    <table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer">
+                        <tr>
+                            <td align="center" valign="top">
+                                <table border="0" cellpadding="0" cellspacing="0" width="600" id="templatePreheader">
+                                    <tr>
+                                        <td valign="top" class="preheaderContainer" style="padding-top:9px;">
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                                class="themezyTextBlock">
+                                                <tbody class="themezyTextBlockOuter">
+                                                    <tr>
+                                                        <td valign="top" class="themezyTextBlockInner">
+
+                                                            <table align="left" border="0" cellpadding="0"
+                                                                cellspacing="0" width="366"
+                                                                class="themezyTextContentContainer">
+
+                                                            </table>
+
+                                                            <table align="right" border="0" cellpadding="0"
+                                                                cellspacing="0" width="197"
+                                                                class="themezyTextContentContainer">
+                                                                <tbody>
+                                                                    <tr>
+
+                                                                        <td valign="top" class="themezyTextContent"
+                                                                            style="padding-top:9px; padding-right:18px; padding-bottom:9px; padding-left:0;">
+
+                                                                            <a href="#">webdeporte@laweb.com</a>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </td>
+                        </tr>
+
+
+
+
+
+
+
+
+                        <tr>
+                            <td align="center" valign="top" style="padding-top: 35px;">
+                                <!-- BEGIN COLUMNS // -->
+                                <table border="0" cellpadding="0" cellspacing="0" width="600" id="templateColumns">
+                                    <tr>
+                                        <td align="left" valign="top" class="columnsContainer" width="50%">
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                                class="templateColumn">
+                                                <tr>
+                                                    <td valign="top" class="leftColumnContainer">
+                                                        <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                                            class="themezyImageBlock">
+                                                            <tbody class="themezyImageBlockOuter">
+                                                                <tr>
+                                                                    <td valign="top" style="padding:9px"
+                                                                        class="themezyImageBlockInner">
+                                                                        <table align="left" width="100%" border="0"
+                                                                            cellpadding="0" cellspacing="0"
+                                                                            class="themezyImageContentContainer">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td class="themezyImageContent"
+                                                                                        valign="top"
+                                                                                        style="padding-right: 9px; padding-left: 9px; padding-top: 0; padding-bottom: 0;">
+
+
+                                                                                        <a href="#"><img align="left"
+                                                                                                alt="" src="logo.png"
+                                                                                                width="175"
+                                                                                                style="max-width:175px; padding-bottom: 0; display: inline !important; vertical-align: bottom;"
+                                                                                                class="themezyImage">
+                                                                                        </a>
+
+
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td align="left" valign="top" class="columnsContainer" width="50%">
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                                class="templateColumn">
+                                                <tr>
+                                                    <td valign="top" class="rightColumnContainer">
+                                                        <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                                            class="themezyFollowBlock">
+                                                            <tbody class="themezyFollowBlockOuter">
+                                                                <tr>
+                                                                    <td align="center" valign="top" style="padding:9px"
+                                                                        class="themezyFollowBlockInner">
+                                                                        <table border="0" cellpadding="0"
+                                                                            cellspacing="0" width="100%"
+                                                                            class="themezyFollowContentContainer">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td align="center"
+                                                                                        style="padding-left:9px;padding-right:9px;">
+                                                                                        <table border="0"
+                                                                                            cellpadding="0"
+                                                                                            cellspacing="0" width="100%"
+                                                                                            class="themezyFollowContent"
+                                                                                            style="border: 1px none #EEEEEE;">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td align="center"
+                                                                                                        valign="top"
+                                                                                                        style="padding-top:9px; padding-right:9px; padding-left:9px;">
+                                                                                                        <table
+                                                                                                            border="0"
+                                                                                                            cellpadding="0"
+                                                                                                            cellspacing="0">
+                                                                                                            <tbody>
+                                                                                                                <tr>
+                                                                                                                    <td
+                                                                                                                        valign="top">
+
+
+
+                                                                                                                        <table
+                                                                                                                            align="left"
+                                                                                                                            border="0"
+                                                                                                                            cellpadding="0"
+                                                                                                                            cellspacing="0">
+                                                                                                                            <tbody>
+                                                                                                                                <tr>
+                                                                                                                                    <td valign="top"
+                                                                                                                                        style="padding-right:10px; padding-bottom:9px;"
+                                                                                                                                        class="themezyFollowContentItemContainer">
+                                                                                                                                        <table
+                                                                                                                                            border="0"
+                                                                                                                                            cellpadding="0"
+                                                                                                                                            cellspacing="0"
+                                                                                                                                            width="100%"
+                                                                                                                                            class="themezyFollowContentItem">
+                                                                                                                                            <tbody>
+                                                                                                                                                <tr>
+                                                                                                                                                    <td align="left"
+                                                                                                                                                        valign="middle"
+                                                                                                                                                        style="padding-top:5px; padding-right:10px; padding-bottom:5px; padding-left:9px;">
+                                                                                                                                                        <table
+                                                                                                                                                            align="left"
+                                                                                                                                                            border="0"
+                                                                                                                                                            cellpadding="0"
+                                                                                                                                                            cellspacing="0"
+                                                                                                                                                            width="">
+                                                                                                                                                            <tbody>
+                                                                                                                                                                <tr>
+
+                                                                                                                                                                    <td align="center"
+                                                                                                                                                                        valign="middle"
+                                                                                                                                                                        width="24"
+                                                                                                                                                                        class="themezyFollowIconContent">
+                                                                                                                                                                        <a href="http://www.facebook.com"
+                                                                                                                                                                            target="_blank"><img
+                                                                                                                                                                                src="icon-facebook.png"
+                                                                                                                                                                                style="display:block;"
+                                                                                                                                                                                height="24"
+                                                                                                                                                                                width="24"
+                                                                                                                                                                                class=""></a>
+                                                                                                                                                                    </td>
+
+
+                                                                                                                                                                    <td align="left"
+                                                                                                                                                                        valign="middle"
+                                                                                                                                                                        class="themezyFollowTextContent"
+                                                                                                                                                                        style="padding-left:5px;">
+                                                                                                                                                                        <a href="http://www.facebook.com"
+                                                                                                                                                                            target="_blank"
+                                                                                                                                                                            style="font-family: Arial;font-size: 11px;text-decoration: none;color: #606060;font-weight: normal;line-height: 100%;text-align: center;">Facebook</a>
+                                                                                                                                                                    </td>
+
+                                                                                                                                                                </tr>
+                                                                                                                                                            </tbody>
+                                                                                                                                                        </table>
+                                                                                                                                                    </td>
+                                                                                                                                                </tr>
+                                                                                                                                            </tbody>
+                                                                                                                                        </table>
+                                                                                                                                    </td>
+                                                                                                                                </tr>
+                                                                                                                            </tbody>
+                                                                                                                        </table>
+
+                                                                                                                        <!--[if gte mso 6]>
+                </td>
+                  <td align="left" valign="top">
+                <![endif]-->
+
+
+
+                                                                                                                        <table
+                                                                                                                            align="left"
+                                                                                                                            border="0"
+                                                                                                                            cellpadding="0"
+                                                                                                                            cellspacing="0">
+                                                                                                                            <tbody>
+                                                                                                                                <tr>
+                                                                                                                                    <td valign="top"
+                                                                                                                                        style="padding-right:0; padding-bottom:9px;"
+                                                                                                                                        class="themezyFollowContentItemContainer">
+                                                                                                                                        <table
+                                                                                                                                            border="0"
+                                                                                                                                            cellpadding="0"
+                                                                                                                                            cellspacing="0"
+                                                                                                                                            width="100%"
+                                                                                                                                            class="themezyFollowContentItem">
+                                                                                                                                            <tbody>
+                                                                                                                                                <tr>
+                                                                                                                                                    <td align="left"
+                                                                                                                                                        valign="middle"
+                                                                                                                                                        style="padding-top:5px; padding-right:10px; padding-bottom:5px; padding-left:9px;">
+                                                                                                                                                        <table
+                                                                                                                                                            align="left"
+                                                                                                                                                            border="0"
+                                                                                                                                                            cellpadding="0"
+                                                                                                                                                            cellspacing="0"
+                                                                                                                                                            width="">
+                                                                                                                                                            <tbody>
+                                                                                                                                                                <tr>
+
+                                                                                                                                                                    <td align="center"
+                                                                                                                                                                        valign="middle"
+                                                                                                                                                                        width="24"
+                                                                                                                                                                        class="themezyFollowIconContent">
+                                                                                                                                                                        <a href="http://www.twitter.com/"
+                                                                                                                                                                            target="_blank"><img
+                                                                                                                                                                                src="icon-twitter.png"
+                                                                                                                                                                                style="display:block;"
+                                                                                                                                                                                height="24"
+                                                                                                                                                                                width="24"
+                                                                                                                                                                                class=""></a>
+                                                                                                                                                                    </td>
+
+
+                                                                                                                                                                    <td align="left"
+                                                                                                                                                                        valign="middle"
+                                                                                                                                                                        class="themezyFollowTextContent"
+                                                                                                                                                                        style="padding-left:5px;">
+                                                                                                                                                                        <a href="http://www.twitter.com/"
+                                                                                                                                                                            target="_blank"
+                                                                                                                                                                            style="font-family: Arial;font-size: 11px;text-decoration: none;color: #606060;font-weight: normal;line-height: 100%;text-align: center;">Twitter</a>
+                                                                                                                                                                    </td>
+
+                                                                                                                                                                </tr>
+                                                                                                                                                            </tbody>
+                                                                                                                                                        </table>
+                                                                                                                                                    </td>
+                                                                                                                                                </tr>
+                                                                                                                                            </tbody>
+                                                                                                                                        </table>
+                                                                                                                                    </td>
+                                                                                                                                </tr>
+                                                                                                                            </tbody>
+                                                                                                                        </table>
+
+                                                                                                                        <!--[if gte mso 6]>
+                </td>
+                  <td align="left" valign="top">
+                <![endif]-->
+
+                                                                                                                    </td>
+                                                                                                                </tr>
+                                                                                                            </tbody>
+                                                                                                        </table>
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!-- // END COLUMNS -->
+                            </td>
+                        </tr>
+
+
+
+
+
+                        <tr>
+                            <td align="center" valign="top">
+                                <!-- BEGIN HEADER // -->
+                                <table border="0" cellpadding="0" cellspacing="0" width="600" id="templateHeader">
+                                    <tr>
+                                        <td valign="top" class="headerContainer">
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                                class="themezyDividerBlock">
+                                                <tbody class="themezyDividerBlockOuter">
+                                                    <tr>
+                                                        <td class="themezyDividerBlockInner"
+                                                            style="padding: 35px 18px;">
+                                                            <table class="themezyDividerContent" border="0"
+                                                                cellpadding="0" cellspacing="0" width="100%"
+                                                                style="border-top-width: 4px;border-top-style: solid;border-top-color: #1F1D1F;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <span></span>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                                class="themezyTextBlock">
+                                                <tbody class="themezyTextBlockOuter">
+                                                    <tr>
+                                                        <td valign="top" class="themezyTextBlockInner">
+
+                                                            <table align="left" border="0" cellpadding="0"
+                                                                cellspacing="0" width="600"
+                                                                class="themezyTextContentContainer">
+                                                                <tbody>
+                                                                    <tr>
+
+                                                                        <td valign="top" class="themezyTextContent"
+                                                                            style="padding-top:9px; padding-right: 18px; padding-bottom: 9px; padding-left: 18px;">
+
+                                                                            <h2 style="text-align: center;"><span
+                                                                                    style="color:#FFFFFF">NOS VOLVIMOS
+                                                                                    LOCOS</span></h2>
+
+                                                                            <h1 style="text-align: center;">SUPER
+                                                                                OFERTA, SOLO POR ESTA SEMANA!!</h1>
+
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                                class="themezyImageBlock">
+                                                <tbody class="themezyImageBlockOuter">
+                                                    <tr>
+                                                        <td valign="top" style="padding:9px"
+                                                            class="themezyImageBlockInner">
+                                                            <table align="left" width="100%" border="0" cellpadding="0"
+                                                                cellspacing="0" class="themezyImageContentContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td class="themezyImageContent" valign="top"
+                                                                            style="padding-right: 9px; padding-left: 9px; padding-top: 0; padding-bottom: 0; text-align:center;">
+
+
+                                                                            <img align="center" alt=""
+                                                                                src="separator.png" width="67"
+                                                                                style="max-width:67px; padding-bottom: 0; display: inline !important; vertical-align: bottom;"
+                                                                                class="themezyImage">
+
+
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                                class="themezyDividerBlock">
+                                                <tbody class="themezyDividerBlockOuter">
+                                                    <tr>
+                                                        <td class="themezyDividerBlockInner"
+                                                            style="padding: 25px 18px;">
+                                                            <table class="themezyDividerContent" border="0"
+                                                                cellpadding="0" cellspacing="0" width="100%">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <span></span>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                                class="themezyImageBlock">
+                                                <tbody class="themezyImageBlockOuter">
+                                                    <tr>
+                                                        <td valign="top" style="padding:9px"
+                                                            class="themezyImageBlockInner">
+                                                            <table align="left" width="100%" border="0" cellpadding="0"
+                                                                cellspacing="0" class="themezyImageContentContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td class="themezyImageContent" valign="top"
+                                                                            style="padding-right: 9px; padding-left: 9px; padding-top: 0; padding-bottom: 0; text-align:center;">
+
+
+                                                                            <img align="center" alt=""
+                                                                                src="masthead-image.png" width="370"
+                                                                                style="max-width:740px; padding-bottom: 0; display: inline !important; vertical-align: bottom;"
+                                                                                class="themezyImage">
+
+
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!-- // END HEADER -->
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" valign="top">
+                                <!-- BEGIN BODY // -->
+                                <table border="0" cellpadding="0" cellspacing="0" width="600" id="templateBody">
+                                    <tr>
+                                        <td valign="top" class="bodyContainer">
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                                class="themezyTextBlock">
+                                                <tbody class="themezyTextBlockOuter">
+                                                    <tr>
+                                                        <td valign="top" class="themezyTextBlockInner">
+
+                                                            <table align="left" border="0" cellpadding="0"
+                                                                cellspacing="0" width="282"
+                                                                class="themezyTextContentContainer">
+                                                                <tbody>
+                                                                    <tr>
+
+                                                                        <td valign="top" class="themezyTextContent"
+                                                                            style="padding-top:9px; padding-left:18px; padding-bottom:9px; padding-right:0;">
+
+                                                                            <h3 class="null"><span
+                                                                                    style="color:#FFFFFF"><strong>STAR
+                                                                                        STAR</strong></span>
+                                                                            </h3>
+                                                                            Zapatillas de dia, brillo de noche, modelo
+                                                                            urbano de ultima generacion.
+                                                                            Modelo Urbano.
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+
+                                                            <table align="right" border="0" cellpadding="0"
+                                                                cellspacing="0" width="282"
+                                                                class="themezyTextContentContainer">
+                                                                <tbody>
+                                                                    <tr>
+
+                                                                        <td valign="top" class="themezyTextContent"
+                                                                            style="padding-top:9px; padding-right:18px; padding-bottom:9px; padding-left:0;">
+
+                                                                            <br>
+                                                                            <br>
+                                                                            <strong><span
+                                                                                    style="color:#d63f36; font-size:60px">$17.000</span></strong>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                                class="themezyDividerBlock">
+                                                <tbody class="themezyDividerBlockOuter">
+                                                    <tr>
+                                                        <td class="themezyDividerBlockInner"
+                                                            style="padding: 35px 18px;">
+                                                            <table class="themezyDividerContent" border="0"
+                                                                cellpadding="0" cellspacing="0" width="100%"
+                                                                style="border-top-width: 4px;border-top-style: solid;border-top-color: #1F1D1F;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <span></span>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                                class="themezyCaptionBlock">
+                                                <tbody class="themezyCaptionBlockOuter">
+                                                    <tr>
+                                                        <td class="themezyCaptionBlockInner" valign="top"
+                                                            style="padding:9px;">
+
+
+
+
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                class="themezyCaptionRightContentOuter" width="100%">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td valign="top"
+                                                                            class="themezyCaptionRightContentInner"
+                                                                            style="padding:0 9px ;">
+                                                                            <table align="left" border="0"
+                                                                                cellpadding="0" cellspacing="0"
+                                                                                class="themezyCaptionRightImageContentContainer">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="themezyCaptionRightImageContent"
+                                                                                            valign="top">
+
+
+
+                                                                                            <img alt="" src="shoe-1.png"
+                                                                                                width="264"
+                                                                                                style="max-width:467px;"
+                                                                                                class="themezyImage">
+
+
+
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                            <table
+                                                                                class="themezyCaptionRightTextContentContainer"
+                                                                                align="right" border="0" cellpadding="0"
+                                                                                cellspacing="0" width="264">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td valign="top"
+                                                                                            class="themezyTextContent">
+                                                                                            <h3>Handball Pro</h3>
+                                                                                            <br>
+                                                                                            Con suelas muy aderantes,
+                                                                                            ideales para deportes de
+                                                                                            frieccion.
+                                                                                            Modelo Deportivo.<br>
+                                                                                            <br>
+                                                                                            <strong><span
+                                                                                                    style="font-size:24px"><span
+                                                                                                        style="color:#d63f36">$23.500</span></span></strong>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+
+
+
+
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                                class="themezyDividerBlock">
+                                                <tbody class="themezyDividerBlockOuter">
+                                                    <tr>
+                                                        <td class="themezyDividerBlockInner"
+                                                            style="padding: 35px 18px;">
+                                                            <table class="themezyDividerContent" border="0"
+                                                                cellpadding="0" cellspacing="0" width="100%"
+                                                                style="border-top-width: 4px;border-top-style: solid;border-top-color: #1F1D1F;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <span></span>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                                class="themezyCaptionBlock">
+                                                <tbody class="themezyCaptionBlockOuter">
+                                                    <tr>
+                                                        <td class="themezyCaptionBlockInner" valign="top"
+                                                            style="padding:9px;">
+
+
+
+
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                class="themezyCaptionRightContentOuter" width="100%">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td valign="top"
+                                                                            class="themezyCaptionRightContentInner"
+                                                                            style="padding:0 9px ;">
+                                                                            <table align="left" border="0"
+                                                                                cellpadding="0" cellspacing="0"
+                                                                                class="themezyCaptionRightImageContentContainer">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="themezyCaptionRightImageContent"
+                                                                                            valign="top">
+
+
+
+                                                                                            <img alt="" src="shoe-2.png"
+                                                                                                width="264"
+                                                                                                style="max-width:467px;"
+                                                                                                class="themezyImage">
+
+
+
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                            <table
+                                                                                class="themezyCaptionRightTextContentContainer"
+                                                                                align="right" border="0" cellpadding="0"
+                                                                                cellspacing="0" width="264">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td valign="top"
+                                                                                            class="themezyTextContent">
+                                                                                            <h3 class="null"><span
+                                                                                                    style="color:#FFFFFF">Pro
+                                                                                                    Star</span></h3>
+                                                                                            <br>
+                                                                                            Gran dinamica y resistencias
+                                                                                            para deportes de fuerte
+                                                                                            impcto y friccion.
+                                                                                            Modelo Deportivo.<br>
+                                                                                            <br>
+                                                                                            <strong><span
+                                                                                                    style="font-size:24px"><span
+                                                                                                        style="color:#d63f36">$23.980</span></span></strong>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+
+
+
+
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                                class="themezyDividerBlock">
+                                                <tbody class="themezyDividerBlockOuter">
+                                                    <tr>
+                                                        <td class="themezyDividerBlockInner"
+                                                            style="padding: 35px 18px;">
+                                                            <table class="themezyDividerContent" border="0"
+                                                                cellpadding="0" cellspacing="0" width="100%"
+                                                                style="border-top-width: 4px;border-top-style: solid;border-top-color: #1F1D1F;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <span></span>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                                class="themezyCaptionBlock">
+                                                <tbody class="themezyCaptionBlockOuter">
+                                                    <tr>
+                                                        <td class="themezyCaptionBlockInner" valign="top"
+                                                            style="padding:9px;">
+
+
+
+
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                class="themezyCaptionRightContentOuter" width="100%">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td valign="top"
+                                                                            class="themezyCaptionRightContentInner"
+                                                                            style="padding:0 9px ;">
+                                                                            <table align="left" border="0"
+                                                                                cellpadding="0" cellspacing="0"
+                                                                                class="themezyCaptionRightImageContentContainer">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="themezyCaptionRightImageContent"
+                                                                                            valign="top">
+
+
+
+                                                                                            <img alt="" src="shoe-3.png"
+                                                                                                width="264"
+                                                                                                style="max-width:467px;"
+                                                                                                class="themezyImage">
+
+
+
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                            <table
+                                                                                class="themezyCaptionRightTextContentContainer"
+                                                                                align="right" border="0" cellpadding="0"
+                                                                                cellspacing="0" width="264">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td valign="top"
+                                                                                            class="themezyTextContent">
+                                                                                            <h3 class="null"><span
+                                                                                                    style="color:#FFFFFF">Super
+                                                                                                    Star</span></h3>
+                                                                                            <br>
+                                                                                            Modelo que super urbano,
+                                                                                            calzado unisex, cuero.
+                                                                                            Modelo Urbano.<br>
+                                                                                            <br>
+                                                                                            <strong><span
+                                                                                                    style="font-size:24px"><span
+                                                                                                        style="color:#d63f36">$13.700</span></span></strong>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+
+
+
+
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                                class="themezyDividerBlock">
+                                                <tbody class="themezyDividerBlockOuter">
+                                                    <tr>
+                                                        <td class="themezyDividerBlockInner"
+                                                            style="padding: 35px 18px;">
+                                                            <table class="themezyDividerContent" border="0"
+                                                                cellpadding="0" cellspacing="0" width="100%"
+                                                                style="border-top-width: 4px;border-top-style: solid;border-top-color: #1F1D1F;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <span></span>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                                class="themezyButtonBlock">
+                                                <tbody class="themezyButtonBlockOuter">
+                                                    <tr>
+                                                        <td style="padding-top:0; padding-right:18px; padding-bottom:18px; padding-left:18px;"
+                                                            valign="top" align="center" class="themezyButtonBlockInner">
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                class="themezyButtonContentContainer"
+                                                                style="border-collapse: separate !important;border: 4px solid #D63F36;border-radius: 0px;background-color: #0B0B0B;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center" valign="middle"
+                                                                            class="themezyButtonContent"
+                                                                            style="font-family: Arial; font-size: 24px; padding: 24px;">
+                                                                            <a class="themezyButton "
+                                                                                title="CLICK HERE TO SEE MORE" href="#"
+                                                                                target="_blank"
+                                                                                style="font-weight: normal;letter-spacing: normal;line-height: 100%;text-align: center;text-decoration: none;color: #D63F36;">CLICK
+                                                                                AQUI PARA VES MAS</a>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                                class="themezyDividerBlock">
+                                                <tbody class="themezyDividerBlockOuter">
+                                                    <tr>
+                                                        <td class="themezyDividerBlockInner"
+                                                            style="padding: 35px 18px;">
+                                                            <table class="themezyDividerContent" border="0"
+                                                                cellpadding="0" cellspacing="0" width="100%"
+                                                                style="border-top-width: 4px;border-top-style: solid;border-top-color: #1F1D1F;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <span></span>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!-- // END BODY -->
+                            </td>
+                        </tr>
+
+
+
+
+
+
+                        <tr>
+                            <td align="center" valign="top">
+                                <!-- BEGIN FOOTER // -->
+                                <table border="0" cellpadding="0" cellspacing="0" width="600" id="templateFooter">
+                                    <tr>
+                                        <td valign="top" class="footerContainer" style="padding-bottom:9px;">
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                                class="themezyTextBlock">
+                                                <tbody class="themezyTextBlockOuter">
+                                                    <tr>
+                                                        <td valign="top" class="themezyTextBlockInner">
+
+                                                            <table align="left" border="0" cellpadding="0"
+                                                                cellspacing="0" width="600"
+                                                                class="themezyTextContentContainer">
+                                                                <tbody>
+                                                                    <tr>
+
+                                                                        <td valign="top" class="themezyTextContent"
+                                                                            style="padding-top:9px; padding-right: 18px; padding-bottom: 9px; padding-left: 18px;">
+
+                                                                            <span style="font-size:14px">You are
+                                                                                receiving this email because you signed
+                                                                                up at
+                                                                                our website.&nbsp;<br>
+                                                                                If you want to unsubscribe, <a
+                                                                                    href="#">click here</a>.</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+
+                                            <!-- // END FOOTER -->
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+    </center>
+</body>
+
+</html>
